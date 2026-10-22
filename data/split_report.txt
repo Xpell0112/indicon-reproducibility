@@ -57,20 +57,6 @@ Total pairs: 400   (all numbers below re-verified directly against
   disease; 1 is a basket trial that includes NSCLC. TEST: 18/18 name NSCLC
   explicitly. No trial in the dataset lacks NSCLC involvement.
 
-----------------------------------------------------------------------
-5. DEVELOPMENT EXPANSION POOL (added later; NOT part of the 400-pair split)
-----------------------------------------------------------------------
-  A separate, development-only expansion was selected afterwards to build and
-  validate the advisory-gate redesign. It is recorded here for completeness and
-  is NOT included in the 400 pairs above and NEVER used as test data.
-     - 11 additional trials (dataset_files/trials_development_expansion.jsonl),
-       framework-blind selected with seed 3027, DISJOINT from both the 22 dev
-       trials and the 18 test trials (0 overlap with either).
-     - 25 generated patients (IDs P0800-P0824), 6 trials each = 150 pairs
-       (dataset_files/expansion_patients/), seed 30271717. These carry only
-       provisional (balance-monitoring) labels pending blind annotation, so they
-       are not counted in any reported score.
-
 ======================================================================
 PAPER SPLIT DESCRIPTION (copy into manuscript)
 ======================================================================

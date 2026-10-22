@@ -4,8 +4,9 @@ experiments/exp9_significance.py — paired significance, bootstrap CIs, cluster
 =================================================================================
 Free / cache-only. NO new API calls, NO pipeline re-run, NO test-set fitting.
 
-Closes reviewer concern MODERATE-5 (no statistical inference) and documents the
-clean test protocol (advisory justified on DEV, not chosen on test):
+Closes reviewer concern MODERATE-5 (no statistical inference). The advisory variant
+is post-hoc exploratory; the development-set comparison below is supplementary context
+only (advisory was NOT selected on DEV and the test set is NOT a confirmatory validation):
 
   * Per-system TEST metrics (accuracy on all 270 with refusal=incorrect; precision/
     recall/F1 on the Eligible class over committed predictions; coverage).
@@ -13,8 +14,8 @@ clean test protocol (advisory justified on DEV, not chosen on test):
     to show how CIs widen once the non-independence of 270 pairs (= 45 patients x
     18 trials, ~6 trials/patient) is respected.
   * McNemar's exact paired test between systems on the identical 270 pairs.
-  * DEV-only justification for the advisory variant (advisory vs veto on the 130
-    dev pairs + McNemar) so selecting advisory is a development decision.
+  * Development-set comparison of advisory vs veto on the 130 dev pairs + McNemar,
+    reported as supplementary context only (advisory is post-hoc exploratory).
 
 Outputs (NEW files only, kept separate from results.md / experiment3):
   experiments/results/experiment9_significance_testing_data.{json,md}
@@ -237,10 +238,11 @@ def main():
     md.append("\n*A>B / B>A* = pairs where only A / only B was correct. p is the two-sided exact "
               "binomial McNemar p-value.\n")
 
-    md.append("\n## 3. Clean test protocol — advisory justified on DEV (not chosen on test)\n\n")
-    md.append("To remove the researcher-degree-of-freedom of picking the method after seeing test "
-              "results, the advisory variant is selected on the **development set only**; the test set "
-              "is then a single confirmatory report.\n\n")
+    md.append("\n## 3. Development-set comparison (supplementary context)\n\n")
+    md.append("The advisory variant is **post-hoc exploratory**: it was examined after inspecting "
+              "held-out failures. The development-set comparison below is reported only as "
+              "supplementary context; the test-set result is **not** a confirmatory validation, and "
+              "no fresh-trial validation was completed.\n\n")
     md.append(mdtab(["DEV (130 pairs)", "Accuracy", "F1(elig)", "Recall", "Precision", "FN"],
                     [["Hard-veto", dev_veto_m["accuracy_full"], dev_veto_m["f1"], dev_veto_m["recall"],
                       dev_veto_m["precision"], dev_veto_m["FN"]],
@@ -250,12 +252,13 @@ def main():
     md.append(f"\nDEV McNemar advisory vs veto: advisory-only-correct {dm['A_correct_B_wrong']}, "
               f"veto-only-correct {dm['A_wrong_B_correct']}, discordant {dm['discordant']}, "
               f"exact p = {dm['p_exact']} ({'significant' if dm['significant_0.05'] else 'not significant'}). "
-              "The direction of improvement (recall/FN) is established on dev; test is confirmatory.\n")
+              "The direction of improvement (recall/FN) is visible on dev and reported as context "
+              "only; the test-set result is exploratory, not confirmatory.\n")
 
     md.append("\n## 4. Honest reading\n")
     md.append("- Report every headline number as **F1 [trial-cluster CI]**, not a bare point value.\n")
     md.append("- If the LLM-vs-hybrid McNemar is significant, say the hybrid is significantly *worse*; "
-              "if advisory-vs-LLM is *not* significant, that is the honest basis for the “LLM-parity” claim.\n")
+              "if advisory-vs-LLM is *not* significant, report the two as statistically indistinguishable on this test set, not as a superiority claim.\n")
     md.append("- With only %d trials, the trial-cluster CI is wide by construction; do not over-claim "
               "small gaps.\n" % n_trials)
 

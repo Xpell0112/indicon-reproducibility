@@ -10,7 +10,7 @@ driven by a few trials. For each of the 18 held-out trials we drop it and
 recompute F1 / recall over the remaining 17 trials, for:
 
   * Advisory vs Hard-veto (does advisory still beat veto when any trial is removed?)
-  * Advisory vs Zero-shot (does parity / non-superiority hold under every drop?)
+  * Advisory vs Zero-shot (does non-superiority hold under every drop?)
   * Hard-veto vs Zero-shot (is the headline "hybrid worse" stable?)
 
 We report, per comparison, the observed full-set ΔF1 and the min/max/mean ΔF1 and

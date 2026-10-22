@@ -15,7 +15,7 @@ indicon-5232-reproducibility/
 ├── REPRODUCIBILITY.md        ← step-by-step + the exact numbers each script reproduces
 ├── requirements.txt          ← numpy only (serving deps optional, commented)
 ├── LICENSE                   ← MIT (anonymous)
-├── prompts/                  ← exact eligibility, ensemble, and field-re-read prompts
+├── prompts/                  ← exact eligibility, ensemble, SQL-reasoning, and field-re-read prompts
 ├── structural_verifier/      ← Type-A classifier + validation agent (transparency)
 ├── patient_generation/       ← template-based synthetic-patient generator (transparency)
 ├── retrieval/                ← two-stream + MMR retrieval and non-secret config (transparency)

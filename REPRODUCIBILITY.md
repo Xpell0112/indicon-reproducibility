@@ -51,7 +51,9 @@ Outputs are written to `../results/` and match the included JSONs.
 ## 3. Seeds
 - Data split: **2026** (80/20 stratified dev split).
 - Bootstrap / permutation: **20260815**.
-- Patient generation: **20260718** (generator default).
+- Patient generation: `20260718` is only the generator's **default** `--seed`; the exact seed
+  behind the frozen main-dataset profiles is **not recorded**. The frozen CSVs in `data/` are the
+  authoritative artifact, so no generation seed is needed to reproduce the released dataset.
 
 ## 4. LLM non-determinism
 Serving runs at temperature 0, but two temperature-0 passes over the 270 test pairs agreed on

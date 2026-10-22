@@ -226,7 +226,7 @@ def main():
     # ---- R2.2 : cluster-robust paired tests ------------------------------------
     key_pairs = [
         ("Hard veto (exp1 run)", "Zero-shot LLM"),      # the headline "hybrid worse" claim
-        ("Advisory (exp8 run)", "Zero-shot LLM"),       # the "LLM-parity" claim
+        ("Advisory (exp8 run)", "Zero-shot LLM"),       # advisory vs zero-shot (post-hoc exploratory)
         ("Advisory (exp8 run)", "Hard veto (exp8 run)"),  # same-run authority effect
         ("Few-shot LLM", "Zero-shot LLM"),              # null control
         ("RAG + LLM", "Zero-shot LLM"),                 # null control
