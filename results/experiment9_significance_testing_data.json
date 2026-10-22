@@ -1,0 +1,364 @@
+{
+  "integrity": {
+    "new_api_calls": 0,
+    "pipeline_rerun": false,
+    "test_used_for_fitting": false,
+    "bootstrap_resamples": 5000,
+    "rng_seed": 20260815
+  },
+  "test_meta": {
+    "n_pairs": 270,
+    "n_patients": 45,
+    "n_trials": 18,
+    "avg_pairs_per_patient": 6.0
+  },
+  "test_systems": {
+    "Zero-shot LLM": {
+      "n": 270,
+      "committed": 270,
+      "coverage": 1.0,
+      "refused": 0,
+      "TP": 64,
+      "FP": 9,
+      "FN": 5,
+      "TN": 192,
+      "accuracy_full": 0.9481,
+      "precision": 0.8767,
+      "recall": 0.9275,
+      "f1": 0.9014,
+      "name": "Zero-shot LLM",
+      "ci95": {
+        "f1_pair": [
+          0.8444,
+          0.9487
+        ],
+        "f1_patient_cluster": [
+          0.8527,
+          0.9459
+        ],
+        "f1_trial_cluster": [
+          0.838,
+          0.963
+        ],
+        "accuracy_pair": [
+          0.9222,
+          0.9741
+        ],
+        "accuracy_trial_cluster": [
+          0.9197,
+          0.9821
+        ]
+      }
+    },
+    "Few-shot LLM": {
+      "n": 270,
+      "committed": 270,
+      "coverage": 1.0,
+      "refused": 0,
+      "TP": 65,
+      "FP": 9,
+      "FN": 4,
+      "TN": 192,
+      "accuracy_full": 0.9519,
+      "precision": 0.8784,
+      "recall": 0.942,
+      "f1": 0.9091,
+      "name": "Few-shot LLM",
+      "ci95": {
+        "f1_pair": [
+          0.8531,
+          0.9545
+        ],
+        "f1_patient_cluster": [
+          0.869,
+          0.9474
+        ],
+        "f1_trial_cluster": [
+          0.8571,
+          0.964
+        ],
+        "accuracy_pair": [
+          0.9259,
+          0.9741
+        ],
+        "accuracy_trial_cluster": [
+          0.9247,
+          0.9821
+        ]
+      }
+    },
+    "RAG-only LLM": {
+      "n": 270,
+      "committed": 270,
+      "coverage": 1.0,
+      "refused": 0,
+      "TP": 61,
+      "FP": 6,
+      "FN": 8,
+      "TN": 195,
+      "accuracy_full": 0.9481,
+      "precision": 0.9104,
+      "recall": 0.8841,
+      "f1": 0.8971,
+      "name": "RAG-only LLM",
+      "ci95": {
+        "f1_pair": [
+          0.8361,
+          0.9466
+        ],
+        "f1_patient_cluster": [
+          0.8489,
+          0.9412
+        ],
+        "f1_trial_cluster": [
+          0.8421,
+          0.9459
+        ],
+        "accuracy_pair": [
+          0.9185,
+          0.9741
+        ],
+        "accuracy_trial_cluster": [
+          0.9286,
+          0.9714
+        ]
+      }
+    },
+    "Symbolic-only gate": {
+      "n": 270,
+      "committed": 270,
+      "coverage": 1.0,
+      "refused": 0,
+      "TP": 52,
+      "FP": 95,
+      "FN": 17,
+      "TN": 106,
+      "accuracy_full": 0.5852,
+      "precision": 0.3537,
+      "recall": 0.7536,
+      "f1": 0.4815,
+      "name": "Symbolic-only gate",
+      "ci95": {
+        "f1_pair": [
+          0.3963,
+          0.5603
+        ],
+        "f1_patient_cluster": [
+          0.4195,
+          0.5446
+        ],
+        "f1_trial_cluster": [
+          0.3019,
+          0.6245
+        ],
+        "accuracy_pair": [
+          0.5259,
+          0.6407
+        ],
+        "accuracy_trial_cluster": [
+          0.4646,
+          0.6933
+        ]
+      }
+    },
+    "Full framework (hard-veto)": {
+      "n": 270,
+      "committed": 264,
+      "coverage": 0.9778,
+      "refused": 6,
+      "TP": 45,
+      "FP": 4,
+      "FN": 21,
+      "TN": 194,
+      "accuracy_full": 0.8852,
+      "precision": 0.9184,
+      "recall": 0.6818,
+      "f1": 0.7826,
+      "name": "Full framework (hard-veto)",
+      "ci95": {
+        "f1_pair": [
+          0.687,
+          0.8598
+        ],
+        "f1_patient_cluster": [
+          0.7027,
+          0.8504
+        ],
+        "f1_trial_cluster": [
+          0.6234,
+          0.8846
+        ],
+        "accuracy_pair": [
+          0.8481,
+          0.9222
+        ],
+        "accuracy_trial_cluster": [
+          0.8428,
+          0.9292
+        ]
+      }
+    },
+    "Advisory variant": {
+      "n": 270,
+      "committed": 265,
+      "coverage": 0.9815,
+      "refused": 5,
+      "TP": 58,
+      "FP": 9,
+      "FN": 8,
+      "TN": 190,
+      "accuracy_full": 0.9185,
+      "precision": 0.8657,
+      "recall": 0.8788,
+      "f1": 0.8722,
+      "name": "Advisory variant",
+      "ci95": {
+        "f1_pair": [
+          0.8033,
+          0.928
+        ],
+        "f1_patient_cluster": [
+          0.8034,
+          0.9296
+        ],
+        "f1_trial_cluster": [
+          0.8235,
+          0.9217
+        ],
+        "accuracy_pair": [
+          0.8852,
+          0.9481
+        ],
+        "accuracy_trial_cluster": [
+          0.8809,
+          0.9551
+        ]
+      }
+    },
+    "Hard-veto (exp8 run)": {
+      "n": 270,
+      "committed": 264,
+      "coverage": 0.9778,
+      "refused": 6,
+      "TP": 45,
+      "FP": 6,
+      "FN": 21,
+      "TN": 192,
+      "accuracy_full": 0.8778,
+      "precision": 0.8824,
+      "recall": 0.6818,
+      "f1": 0.7692,
+      "name": "Hard-veto (exp8 run)",
+      "ci95": {
+        "f1_pair": [
+          0.6742,
+          0.8485
+        ],
+        "f1_patient_cluster": [
+          0.6838,
+          0.8348
+        ],
+        "f1_trial_cluster": [
+          0.5974,
+          0.8846
+        ],
+        "accuracy_pair": [
+          0.837,
+          0.9148
+        ],
+        "accuracy_trial_cluster": [
+          0.837,
+          0.9198
+        ]
+      }
+    }
+  },
+  "test_mcnemar": {
+    "Full framework (hard-veto) vs Zero-shot LLM": {
+      "A_correct_B_wrong": 5,
+      "A_wrong_B_correct": 22,
+      "discordant": 27,
+      "p_exact": 0.00151,
+      "chi2_cc": 9.481,
+      "significant_0.05": true
+    },
+    "Advisory variant vs Zero-shot LLM": {
+      "A_correct_B_wrong": 3,
+      "A_wrong_B_correct": 11,
+      "discordant": 14,
+      "p_exact": 0.05737,
+      "chi2_cc": 3.5,
+      "significant_0.05": false
+    },
+    "Advisory variant vs Hard-veto (exp8 run)": {
+      "A_correct_B_wrong": 15,
+      "A_wrong_B_correct": 4,
+      "discordant": 19,
+      "p_exact": 0.01921,
+      "chi2_cc": 5.263,
+      "significant_0.05": true
+    },
+    "Full framework (hard-veto) vs Symbolic-only gate": {
+      "A_correct_B_wrong": 89,
+      "A_wrong_B_correct": 8,
+      "discordant": 97,
+      "p_exact": 0.0,
+      "chi2_cc": 65.979,
+      "significant_0.05": true
+    },
+    "Zero-shot LLM vs Few-shot LLM": {
+      "A_correct_B_wrong": 3,
+      "A_wrong_B_correct": 4,
+      "discordant": 7,
+      "p_exact": 1.0,
+      "chi2_cc": 0.0,
+      "significant_0.05": false
+    },
+    "Zero-shot LLM vs RAG-only LLM": {
+      "A_correct_B_wrong": 4,
+      "A_wrong_B_correct": 4,
+      "discordant": 8,
+      "p_exact": 1.0,
+      "chi2_cc": 0.125,
+      "significant_0.05": false
+    }
+  },
+  "dev_advisory_justification": {
+    "advisory": {
+      "n": 130,
+      "committed": 130,
+      "coverage": 1.0,
+      "refused": 0,
+      "TP": 37,
+      "FP": 5,
+      "FN": 4,
+      "TN": 84,
+      "accuracy_full": 0.9308,
+      "precision": 0.881,
+      "recall": 0.9024,
+      "f1": 0.8916
+    },
+    "veto": {
+      "n": 130,
+      "committed": 126,
+      "coverage": 0.9692,
+      "refused": 4,
+      "TP": 37,
+      "FP": 5,
+      "FN": 2,
+      "TN": 82,
+      "accuracy_full": 0.9154,
+      "precision": 0.881,
+      "recall": 0.9487,
+      "f1": 0.9136
+    },
+    "mcnemar_adv_vs_veto": {
+      "A_correct_B_wrong": 2,
+      "A_wrong_B_correct": 0,
+      "discordant": 2,
+      "p_exact": 0.5,
+      "chi2_cc": 0.5,
+      "significant_0.05": false
+    }
+  }
+}

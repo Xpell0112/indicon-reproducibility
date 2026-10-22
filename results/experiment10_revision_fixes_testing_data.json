@@ -1,0 +1,302 @@
+{
+  "integrity": {
+    "new_api_calls": 0,
+    "pipeline_rerun": false,
+    "test_used_for_fitting": false,
+    "bootstrap_resamples": 5000,
+    "mc_permutations": 200000,
+    "rng_seed": 20260815
+  },
+  "test_meta": {
+    "n_pairs": 270,
+    "n_patients": 45,
+    "n_trials": 18
+  },
+  "R2_1_accuracy_convention": {
+    "stated_method": "refusal = incorrect, denominator N",
+    "systems": {
+      "Symbolic-only": {
+        "n": 270,
+        "committed": 270,
+        "refused": 0,
+        "coverage": 1.0,
+        "TP": 52,
+        "FP": 95,
+        "FN": 17,
+        "TN": 106,
+        "acc_full": 0.5852,
+        "acc_decided": 0.5852,
+        "precision": 0.3537,
+        "recall": 0.7536,
+        "f1": 0.4815
+      },
+      "Zero-shot LLM": {
+        "n": 270,
+        "committed": 270,
+        "refused": 0,
+        "coverage": 1.0,
+        "TP": 64,
+        "FP": 9,
+        "FN": 5,
+        "TN": 192,
+        "acc_full": 0.9481,
+        "acc_decided": 0.9481,
+        "precision": 0.8767,
+        "recall": 0.9275,
+        "f1": 0.9014
+      },
+      "Few-shot LLM": {
+        "n": 270,
+        "committed": 270,
+        "refused": 0,
+        "coverage": 1.0,
+        "TP": 65,
+        "FP": 9,
+        "FN": 4,
+        "TN": 192,
+        "acc_full": 0.9519,
+        "acc_decided": 0.9519,
+        "precision": 0.8784,
+        "recall": 0.942,
+        "f1": 0.9091
+      },
+      "RAG + LLM": {
+        "n": 270,
+        "committed": 270,
+        "refused": 0,
+        "coverage": 1.0,
+        "TP": 61,
+        "FP": 6,
+        "FN": 8,
+        "TN": 195,
+        "acc_full": 0.9481,
+        "acc_decided": 0.9481,
+        "precision": 0.9104,
+        "recall": 0.8841,
+        "f1": 0.8971
+      },
+      "Hard veto (exp1 run)": {
+        "n": 270,
+        "committed": 264,
+        "refused": 6,
+        "coverage": 0.9778,
+        "TP": 45,
+        "FP": 4,
+        "FN": 21,
+        "TN": 194,
+        "acc_full": 0.8852,
+        "acc_decided": 0.9053,
+        "precision": 0.9184,
+        "recall": 0.6818,
+        "f1": 0.7826
+      },
+      "Hard veto (exp8 run)": {
+        "n": 270,
+        "committed": 264,
+        "refused": 6,
+        "coverage": 0.9778,
+        "TP": 45,
+        "FP": 6,
+        "FN": 21,
+        "TN": 192,
+        "acc_full": 0.8778,
+        "acc_decided": 0.8977,
+        "precision": 0.8824,
+        "recall": 0.6818,
+        "f1": 0.7692
+      },
+      "Advisory (exp8 run)": {
+        "n": 270,
+        "committed": 265,
+        "refused": 5,
+        "coverage": 0.9815,
+        "TP": 58,
+        "FP": 9,
+        "FN": 8,
+        "TN": 190,
+        "acc_full": 0.9185,
+        "acc_decided": 0.9358,
+        "precision": 0.8657,
+        "recall": 0.8788,
+        "f1": 0.8722
+      },
+      "Majority": {
+        "n": 270,
+        "committed": 270,
+        "refused": 0,
+        "coverage": 1.0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 69,
+        "TN": 201,
+        "acc_full": 0.7444,
+        "acc_decided": 0.7444,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "R2_2_cluster_significance": {
+    "Hard veto (exp1 run) vs Zero-shot LLM": {
+      "mcnemar_pairlevel": {
+        "A_correct_B_wrong": 5,
+        "A_wrong_B_correct": 22,
+        "discordant": 27,
+        "p_exact": 0.00151,
+        "significant_0.05": true
+      },
+      "trial_cluster_signflip": {
+        "n_clusters": 18,
+        "net_correct_diff_T": -17,
+        "p_cluster_signflip": 0.01758,
+        "significant_0.05": true,
+        "method": "exact sign-flip over 2^18=262144 flips"
+      },
+      "patient_cluster_signflip": {
+        "n_clusters": 45,
+        "net_correct_diff_T": -17,
+        "p_cluster_signflip": 0.00034,
+        "significant_0.05": true,
+        "method": "Monte-Carlo sign-flip, 200000 flips, seed 20260815"
+      },
+      "trial_cluster_bootstrap": {
+        "acc_diff_A_minus_B": -0.063,
+        "ci95": [
+          -0.1033,
+          -0.0236
+        ],
+        "p_cluster_bootstrap": 0.0016,
+        "significant_0.05": true
+      }
+    },
+    "Advisory (exp8 run) vs Zero-shot LLM": {
+      "mcnemar_pairlevel": {
+        "A_correct_B_wrong": 3,
+        "A_wrong_B_correct": 11,
+        "discordant": 14,
+        "p_exact": 0.05737,
+        "significant_0.05": false
+      },
+      "trial_cluster_signflip": {
+        "n_clusters": 18,
+        "net_correct_diff_T": -8,
+        "p_cluster_signflip": 0.15625,
+        "significant_0.05": false,
+        "method": "exact sign-flip over 2^18=262144 flips"
+      },
+      "patient_cluster_signflip": {
+        "n_clusters": 45,
+        "net_correct_diff_T": -8,
+        "p_cluster_signflip": 0.05541,
+        "significant_0.05": false,
+        "method": "Monte-Carlo sign-flip, 200000 flips, seed 20260815"
+      },
+      "trial_cluster_bootstrap": {
+        "acc_diff_A_minus_B": -0.0296,
+        "ci95": [
+          -0.0654,
+          0.0
+        ],
+        "p_cluster_bootstrap": 0.076,
+        "significant_0.05": false
+      }
+    },
+    "Advisory (exp8 run) vs Hard veto (exp8 run)": {
+      "mcnemar_pairlevel": {
+        "A_correct_B_wrong": 15,
+        "A_wrong_B_correct": 4,
+        "discordant": 19,
+        "p_exact": 0.01921,
+        "significant_0.05": true
+      },
+      "trial_cluster_signflip": {
+        "n_clusters": 18,
+        "net_correct_diff_T": 11,
+        "p_cluster_signflip": 0.01562,
+        "significant_0.05": true,
+        "method": "exact sign-flip over 2^18=262144 flips"
+      },
+      "patient_cluster_signflip": {
+        "n_clusters": 45,
+        "net_correct_diff_T": 11,
+        "p_cluster_signflip": 0.01775,
+        "significant_0.05": true,
+        "method": "Monte-Carlo sign-flip, 200000 flips, seed 20260815"
+      },
+      "trial_cluster_bootstrap": {
+        "acc_diff_A_minus_B": 0.0407,
+        "ci95": [
+          0.0172,
+          0.069
+        ],
+        "p_cluster_bootstrap": 0.0004,
+        "significant_0.05": true
+      }
+    },
+    "Few-shot LLM vs Zero-shot LLM": {
+      "mcnemar_pairlevel": {
+        "A_correct_B_wrong": 4,
+        "A_wrong_B_correct": 3,
+        "discordant": 7,
+        "p_exact": 1.0,
+        "significant_0.05": false
+      },
+      "trial_cluster_signflip": {
+        "n_clusters": 18,
+        "net_correct_diff_T": 1,
+        "p_cluster_signflip": 1.0,
+        "significant_0.05": false,
+        "method": "exact sign-flip over 2^18=262144 flips"
+      },
+      "patient_cluster_signflip": {
+        "n_clusters": 45,
+        "net_correct_diff_T": 1,
+        "p_cluster_signflip": 1.0,
+        "significant_0.05": false,
+        "method": "Monte-Carlo sign-flip, 200000 flips, seed 20260815"
+      },
+      "trial_cluster_bootstrap": {
+        "acc_diff_A_minus_B": 0.0037,
+        "ci95": [
+          -0.0082,
+          0.0162
+        ],
+        "p_cluster_bootstrap": 0.7544,
+        "significant_0.05": false
+      }
+    },
+    "RAG + LLM vs Zero-shot LLM": {
+      "mcnemar_pairlevel": {
+        "A_correct_B_wrong": 4,
+        "A_wrong_B_correct": 4,
+        "discordant": 8,
+        "p_exact": 1.0,
+        "significant_0.05": false
+      },
+      "trial_cluster_signflip": {
+        "n_clusters": 18,
+        "net_correct_diff_T": 0,
+        "p_cluster_signflip": 1.0,
+        "significant_0.05": false,
+        "method": "exact sign-flip over 2^18=262144 flips"
+      },
+      "patient_cluster_signflip": {
+        "n_clusters": 45,
+        "net_correct_diff_T": 0,
+        "p_cluster_signflip": 1.0,
+        "significant_0.05": false,
+        "method": "Monte-Carlo sign-flip, 200000 flips, seed 20260815"
+      },
+      "trial_cluster_bootstrap": {
+        "acc_diff_A_minus_B": 0.0,
+        "ci95": [
+          -0.0236,
+          0.0175
+        ],
+        "p_cluster_bootstrap": 1.0,
+        "significant_0.05": false
+      }
+    }
+  }
+}

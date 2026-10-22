@@ -1,0 +1,87 @@
+======================================================================
+DATASET SPLIT REPORT
+======================================================================
+Total pairs: 400   (all numbers below re-verified directly against
+                    data/dev_train.csv, data/dev_validation.csv,
+                    data/testing_data.csv; last verified 2026-08-13)
+
+----------------------------------------------------------------------
+1. DEV / TEST SPLIT (trial-level, pre-defined; disjoint in BOTH patients and trials)
+----------------------------------------------------------------------
+  DEV : 130 pairs | 26 patients | 22 trials
+  TEST: 270 pairs | 45 patients | 18 trials
+  Patient overlap DEV-vs-TEST (must be empty): NONE (0) OK
+  Trial overlap   DEV-vs-TEST (must be empty): NONE (0) OK
+  DEV balance : eligible 41 (31.5%) | not eligible 89 (68.5%)
+  TEST balance: eligible 69 (25.6%) | not eligible 201 (74.4%)
+
+----------------------------------------------------------------------
+2. DEV-TRAIN / DEV-VALIDATION SPLIT (stratified by label, 80/20, seed=2026)
+----------------------------------------------------------------------
+  DEV-TRAIN     : 104 pairs | 26 patients | 22 trials
+                  balance: eligible 33 (31.7%) | not eligible 71 (68.3%)
+  DEV-VALIDATION:  26 pairs | 18 patients | 14 trials
+                  balance: eligible  8 (30.8%) | not eligible 18 (69.2%)
+
+  NOTE on the per-fold patient/trial counts (this is the honest, easy-to-
+  misread part): dev-train and dev-validation are a stratified 80/20 split of
+  the SAME 130 development pairs, so they intentionally SHARE patients and
+  trials. Every dev-validation patient and trial is a subset of dev-train's.
+  That is why:
+     - dev-train alone already covers all 26 dev patients / 22 dev trials, and
+     - the pooled DEV counts (26 patients / 22 trials) equal dev-train's, NOT
+       the sum of the two folds.
+  dev-validation is for over-fitting detection during tuning, NOT a
+  generalization claim. The generalization claim rests on the trial-disjoint
+  TEST set only.
+
+----------------------------------------------------------------------
+3. PER-TRIAL COVERAGE (trials with 0 eligible pairs, or fewer than 5 pairs)
+----------------------------------------------------------------------
+  TEST: 18 trials
+     0-eligible (3): NCT00049543, NCT01639508, NCT02109016
+     <5-pair    (3): NCT01047059, NCT01342965, NCT01639508
+  DEV : 22 trials
+     0-eligible (5): NCT00215930, NCT00250978, NCT01507428, NCT03058094,
+                     NCT03110978
+     <5-pair    (8): NCT00410059, NCT00614822, NCT00826449, NCT01507428,
+                     NCT01948141, NCT02718066, NCT03058094, NCT03468985
+  (Thin / 0-eligible trials are why per-trial metrics are not reported; results
+   are aggregated at the split level and, where used, at the mechanism-class
+   level — see results.md / experiments/exp7_per_mechanism.py.)
+
+----------------------------------------------------------------------
+4. NSCLC coverage (verified)
+----------------------------------------------------------------------
+  All 40 trials involve NSCLC. DEV: 21/22 name NSCLC explicitly as the primary
+  disease; 1 is a basket trial that includes NSCLC. TEST: 18/18 name NSCLC
+  explicitly. No trial in the dataset lacks NSCLC involvement.
+
+----------------------------------------------------------------------
+5. DEVELOPMENT EXPANSION POOL (added later; NOT part of the 400-pair split)
+----------------------------------------------------------------------
+  A separate, development-only expansion was selected afterwards to build and
+  validate the advisory-gate redesign. It is recorded here for completeness and
+  is NOT included in the 400 pairs above and NEVER used as test data.
+     - 11 additional trials (dataset_files/trials_development_expansion.jsonl),
+       framework-blind selected with seed 3027, DISJOINT from both the 22 dev
+       trials and the 18 test trials (0 overlap with either).
+     - 25 generated patients (IDs P0800-P0824), 6 trials each = 150 pairs
+       (dataset_files/expansion_patients/), seed 30271717. These carry only
+       provisional (balance-monitoring) labels pending blind annotation, so they
+       are not counted in any reported score.
+
+======================================================================
+PAPER SPLIT DESCRIPTION (copy into manuscript)
+======================================================================
+  The dataset is partitioned at the trial level into a development set
+  (130 pairs, 26 patients, 22 trials) and a held-out test set
+  (270 pairs, 45 patients, 18 trials), disjoint in both patients and trials
+  (verified: 0 patient overlap, 0 trial overlap). Framework tuning (prompt
+  refinement, thresholds, the refinement loop) uses the development set only,
+  further split 80/20 (stratified by label, seed 2026) into dev-train
+  (104 pairs; 26 patients, 22 trials) for tuning and dev-validation
+  (26 pairs; 18 patients, 14 trials, a subset of dev-train) for configuration
+  selection and over-fitting detection. The test set is evaluated after the
+  framework configuration is frozen.
+======================================================================

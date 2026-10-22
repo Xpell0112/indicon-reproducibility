@@ -1,0 +1,59 @@
+INDICON 2026 (Paper ID 5232) — Single-call baseline eligibility prompt
+Source: experiments/exp1_baselines.py (BASELINE_SYSTEM and the zero-shot / few-shot / RAG wrappers)
+
+NOTE: There is no standalone confidence-scoring prompt. The confidence is self-reported
+by the model inside the JSON it returns ("confidence": <0..1>).
+
+================================================================================
+SYSTEM PROMPT (used by the zero-shot, few-shot, and RAG conditions)
+================================================================================
+You are a clinical trial eligibility assistant for non-small-cell lung cancer (NSCLC). Decide whether the patient meets EVERY inclusion criterion and violates NO exclusion criterion. Respond ONLY with a JSON object: {"prediction": "Eligible" | "Not Eligible", "confidence": <0..1>, "reasoning": "<one sentence>"}.
+
+================================================================================
+SHARED CRITERIA BLOCK (inserted into every user prompt below)
+================================================================================
+PATIENT PROFILE:
+{patient_profile}
+
+TRIAL INCLUSION CRITERIA:
+{inclusion_criteria[:4000]}
+
+TRIAL EXCLUSION CRITERIA:
+{exclusion_criteria[:4000]}
+
+================================================================================
+ZERO-SHOT user prompt
+================================================================================
+<CRITERIA BLOCK>
+Decide eligibility. Respond in the required JSON format.
+
+================================================================================
+FEW-SHOT user prompt (k = 4 labelled, class-balanced examples from dev_train)
+================================================================================
+Here are labelled examples:
+
+<EXAMPLE 1 CRITERIA BLOCK>ANSWER: {"prediction": "<LABEL>"}
+---
+<EXAMPLE 2 CRITERIA BLOCK>ANSWER: {"prediction": "<LABEL>"}
+---
+... (k examples total, joined by a line containing only ---) ...
+---
+Now decide this case:
+
+<CRITERIA BLOCK>
+Respond in the required JSON format.
+
+  - Examples are drawn only from dev_train (disjoint from the test set).
+  - Demonstration LABELS ARE supplied (ANSWER line above).
+
+================================================================================
+RAG user prompt (top-5 retrieved similar development cases)
+================================================================================
+<CRITERIA BLOCK>
+SIMILAR PAST NSCLC CASES (context, labels withheld):
+{retrieved_context[:1500]}
+
+Decide eligibility from the criteria. Respond in the required JSON format.
+
+  - Retrieved context is development-only; eligibility LABELS ARE WITHHELD from the
+    retrieved text.

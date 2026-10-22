@@ -1,0 +1,270 @@
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0001__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Eligible", "confidence": 0.852, "brier": 0.0219, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0001__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0001__NCT00550173", "target": "Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Not Eligible", "confidence": 0.862, "brier": 0.019, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0001__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0001__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.75, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0001__NCT00266877", "target": "Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.584, "brier": 0.1731, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0002__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Not Eligible", "confidence": 0.584, "brier": 0.3411, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0002__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.584, "brier": 0.1731, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0002__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.834, "brier": 0.0276, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0002__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.834, "brier": 0.0276, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0002__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.584, "brier": 0.1731, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0002__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0003__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.596, "brier": 0.1632, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0003__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.596, "brier": 0.1632, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0003__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Eligible", "confidence": 0.602, "brier": 0.1584, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0003__NCT00465907", "target": "Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.596, "brier": 0.1632, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0003__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0003__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0004__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0004__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0004__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0004__NCT03431415", "target": "Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.598, "brier": 0.1616, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0004__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.598, "brier": 0.1616, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0004__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.612, "brier": 0.1505, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0005__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.612, "brier": 0.1505, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0005__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.612, "brier": 0.1505, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0005__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.862, "brier": 0.019, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0005__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.612, "brier": 0.3745, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0005__NCT01766739", "target": "Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.612, "brier": 0.1505, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0005__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0006__NCT01047059", "target": "Not Eligible", "trial_id": "NCT01047059"}
+{"prediction": "Not Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0006__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0006__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.596, "brier": 0.1632, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0006__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.846, "brier": 0.0237, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0006__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0007__NCT01766739", "target": "Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 12, "confidence_blocked": false, "pair_id": "P0007__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0007__NCT02182102", "target": "Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0007__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0007__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.1656, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0007__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Eligible", "confidence": 0.831, "brier": 0.0286, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0008__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.831, "brier": 0.0286, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0008__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.581, "brier": 0.1756, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0008__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.581, "brier": 0.1756, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0008__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.581, "brier": 0.1756, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0008__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.831, "brier": 0.0286, "llm_calls": 12, "confidence_blocked": false, "pair_id": "P0008__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0009__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.608, "brier": 0.1537, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0009__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0009__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.608, "brier": 0.3697, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0009__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.608, "brier": 0.1537, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0009__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Not Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0009__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.865, "brier": 0.0182, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0010__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.865, "brier": 0.0182, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0010__NCT00550173", "target": "Not Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Eligible", "confidence": 0.865, "brier": 0.0182, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0010__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.615, "brier": 0.1482, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0010__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.865, "brier": 0.0182, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0010__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0011__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.587, "brier": 0.3446, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0011__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0011__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0011__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.587, "brier": 0.1706, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0011__NCT01639508", "target": "Not Eligible", "trial_id": "NCT01639508"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0011__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0012__NCT01342965", "target": "Eligible", "trial_id": "NCT01342965"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.7191, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0012__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0012__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.598, "brier": 0.1616, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0012__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0012__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0012__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.597, "brier": 0.3564, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0013__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.847, "brier": 0.0234, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0013__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.847, "brier": 0.0234, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0013__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.597, "brier": 0.1624, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0013__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Not Eligible", "confidence": 0.847, "brier": 0.0234, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0013__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.84, "brier": 0.0256, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0014__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Eligible", "confidence": 0.84, "brier": 0.0256, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0014__NCT00550173", "target": "Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0014__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.84, "brier": 0.0256, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0014__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.84, "brier": 0.0256, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0014__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0014__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.6, "brier": 0.16, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0015__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0015__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0015__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0015__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0015__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.577, "brier": 0.1789, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0016__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Eligible", "confidence": 0.827, "brier": 0.0299, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0016__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.577, "brier": 0.1789, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0016__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.827, "brier": 0.0299, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0016__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.827, "brier": 0.0299, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0016__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.827, "brier": 0.0299, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0016__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0017__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.561, "brier": 0.1927, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0017__NCT04808752", "target": "Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.548, "brier": 0.2043, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0017__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0017__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0017__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0017__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0018__NCT04808752", "target": "Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0018__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0018__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0018__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.587, "brier": 0.1706, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0018__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.587, "brier": 0.1706, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0018__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0019__NCT03360929", "target": "Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.1656, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0019__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": null, "confidence": 0.299, "brier": null, "llm_calls": 10, "confidence_blocked": true, "pair_id": "P0006__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.865, "brier": 0.7482, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0010__NCT02182102", "target": "Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.597, "brier": 0.1624, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0013__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": null, "confidence": 0.345, "brier": null, "llm_calls": 3, "confidence_blocked": true, "pair_id": "P0015__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0019__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.1656, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0019__NCT01639508", "target": "Not Eligible", "trial_id": "NCT01639508"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.1656, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0019__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0019__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.585, "brier": 0.1722, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0020__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.835, "brier": 0.0272, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0020__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.585, "brier": 0.1722, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0020__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.585, "brier": 0.1722, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0020__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.585, "brier": 0.3422, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0020__NCT00266877", "target": "Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.835, "brier": 0.0272, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0020__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0021__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0021__NCT03431415", "target": "Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0021__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.603, "brier": 0.1576, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0021__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0021__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.853, "brier": 0.0216, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0021__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0022__NCT00465907", "target": "Eligible", "trial_id": "NCT00465907"}
+{"prediction": null, "confidence": 0.303, "brier": null, "llm_calls": 6, "confidence_blocked": true, "pair_id": "P0022__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0022__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.6, "brier": 0.16, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0022__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.6, "brier": 0.16, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0022__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.85, "brier": 0.0225, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0022__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0023__NCT01047059", "target": "Not Eligible", "trial_id": "NCT01047059"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0023__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0023__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.606, "brier": 0.1552, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0023__NCT03057340", "target": "Not Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0023__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0023__NCT03431415", "target": "Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0024__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": null, "confidence": 0.321, "brier": null, "llm_calls": 3, "confidence_blocked": true, "pair_id": "P0024__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0024__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0024__NCT00550173", "target": "Not Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0024__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0024__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.604, "brier": 0.1568, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0025__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.854, "brier": 0.0213, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0025__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.584, "brier": 0.3411, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0025__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.604, "brier": 0.1568, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0025__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Eligible", "confidence": 0.854, "brier": 0.7293, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0025__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.604, "brier": 0.1568, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0025__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0026__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0026__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0026__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0026__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0026__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0026__NCT01766739", "target": "Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0027__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0027__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.84, "brier": 0.0256, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0027__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0027__NCT02109016", "target": "Not Eligible", "trial_id": "NCT02109016"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0027__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.59, "brier": 0.1681, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0027__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0028__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0028__NCT00550173", "target": "Not Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0028__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0028__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0028__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0028__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Eligible", "confidence": 0.849, "brier": 0.0228, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0029__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.599, "brier": 0.1608, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0029__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.549, "brier": 0.3014, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0029__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.849, "brier": 0.0228, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0029__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": null, "confidence": 0.299, "brier": null, "llm_calls": 5, "confidence_blocked": true, "pair_id": "P0029__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.849, "brier": 0.0228, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0029__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0030__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.616, "brier": 0.1475, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0030__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0030__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0030__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 12, "confidence_blocked": false, "pair_id": "P0030__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.75, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0030__NCT02182102", "target": "Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.599, "brier": 0.1608, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0031__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.599, "brier": 0.1608, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0031__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.599, "brier": 0.3588, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0031__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.849, "brier": 0.0228, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0031__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.849, "brier": 0.0228, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0031__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.599, "brier": 0.3588, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0031__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0032__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0032__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0032__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0032__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0032__NCT03431415", "target": "Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.837, "brier": 0.0266, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0032__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0033__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0033__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0033__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0033__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0033__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0033__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0034__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0034__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0034__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.616, "brier": 0.1475, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0034__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Eligible", "confidence": 0.866, "brier": 0.018, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0034__NCT03057340", "target": "Eligible", "trial_id": "NCT03057340"}
+{"prediction": "Not Eligible", "confidence": 0.616, "brier": 0.1475, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0034__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.608, "brier": 0.3697, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0035__NCT01766739", "target": "Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0035__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0035__NCT01047059", "target": "Eligible", "trial_id": "NCT01047059"}
+{"prediction": "Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0035__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.608, "brier": 0.1537, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0035__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Eligible", "confidence": 0.858, "brier": 0.0202, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0035__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0036__NCT00550173", "target": "Not Eligible", "trial_id": "NCT00550173"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0036__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 9, "confidence_blocked": false, "pair_id": "P0036__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0036__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0036__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.848, "brier": 0.0231, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0036__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.601, "brier": 0.1592, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0037__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.851, "brier": 0.0222, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0037__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Eligible", "confidence": 0.851, "brier": 0.0222, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0037__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Eligible", "confidence": 0.851, "brier": 0.0222, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0037__NCT01342965", "target": "Eligible", "trial_id": "NCT01342965"}
+{"prediction": "Not Eligible", "confidence": 0.851, "brier": 0.0222, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0037__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.851, "brier": 0.0222, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0037__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0038__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0038__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0038__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": null, "confidence": 0.324, "brier": null, "llm_calls": 3, "confidence_blocked": true, "pair_id": "P0038__NCT02182102", "target": "Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0038__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.857, "brier": 0.0204, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0038__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.622, "brier": 0.1429, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0039__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Eligible", "confidence": 0.86, "brier": 0.0196, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0039__NCT00753714", "target": "Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.622, "brier": 0.1429, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0039__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Eligible", "confidence": 0.847, "brier": 0.0234, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0039__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.622, "brier": 0.1429, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0039__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Not Eligible", "confidence": 0.622, "brier": 0.1429, "llm_calls": 3, "confidence_blocked": false, "pair_id": "P0039__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0040__NCT02073968", "target": "Not Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.1656, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0040__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0040__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.593, "brier": 0.3516, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0040__NCT02182102", "target": "Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0040__NCT00049543", "target": "Not Eligible", "trial_id": "NCT00049543"}
+{"prediction": "Not Eligible", "confidence": 0.843, "brier": 0.0246, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0040__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.594, "brier": 0.1648, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0041__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Eligible", "confidence": 0.844, "brier": 0.0243, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0041__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.594, "brier": 0.1648, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0041__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.594, "brier": 0.1648, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0041__NCT00266877", "target": "Not Eligible", "trial_id": "NCT00266877"}
+{"prediction": "Eligible", "confidence": 0.844, "brier": 0.0243, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0041__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.549, "brier": 0.3014, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0041__NCT01047059", "target": "Not Eligible", "trial_id": "NCT01047059"}
+{"prediction": "Eligible", "confidence": 0.559, "brier": 0.1945, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0042__NCT04808752", "target": "Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0042__NCT01766739", "target": "Not Eligible", "trial_id": "NCT01766739"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0042__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.606, "brier": 0.1552, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0042__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.606, "brier": 0.1552, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0042__NCT02182232", "target": "Not Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Not Eligible", "confidence": 0.856, "brier": 0.0207, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0042__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.842, "brier": 0.025, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0043__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Eligible", "confidence": 0.572, "brier": 0.1832, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0043__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.842, "brier": 0.025, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0043__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.842, "brier": 0.025, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0043__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Not Eligible", "confidence": 0.592, "brier": 0.3505, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0043__NCT02182232", "target": "Eligible", "trial_id": "NCT02182232"}
+{"prediction": "Eligible", "confidence": 0.842, "brier": 0.025, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0043__NCT01342965", "target": "Eligible", "trial_id": "NCT01342965"}
+{"prediction": "Not Eligible", "confidence": 0.589, "brier": 0.1689, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0044__NCT04808752", "target": "Not Eligible", "trial_id": "NCT04808752"}
+{"prediction": "Not Eligible", "confidence": 0.839, "brier": 0.0259, "llm_calls": 7, "confidence_blocked": false, "pair_id": "P0044__NCT03360929", "target": "Not Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.589, "brier": 0.1689, "llm_calls": 5, "confidence_blocked": false, "pair_id": "P0044__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.589, "brier": 0.1689, "llm_calls": 11, "confidence_blocked": false, "pair_id": "P0044__NCT00465907", "target": "Not Eligible", "trial_id": "NCT00465907"}
+{"prediction": "Eligible", "confidence": 0.839, "brier": 0.0259, "llm_calls": 10, "confidence_blocked": false, "pair_id": "P0044__NCT02073968", "target": "Eligible", "trial_id": "NCT02073968"}
+{"prediction": "Eligible", "confidence": 0.839, "brier": 0.0259, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0044__NCT03141359", "target": "Eligible", "trial_id": "NCT03141359"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.354, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0045__NCT03360929", "target": "Eligible", "trial_id": "NCT03360929"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0045__NCT03431415", "target": "Not Eligible", "trial_id": "NCT03431415"}
+{"prediction": "Not Eligible", "confidence": 0.595, "brier": 0.164, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0045__NCT00753714", "target": "Not Eligible", "trial_id": "NCT00753714"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 6, "confidence_blocked": false, "pair_id": "P0045__NCT01342965", "target": "Not Eligible", "trial_id": "NCT01342965"}
+{"prediction": "Not Eligible", "confidence": 0.548, "brier": 0.2043, "llm_calls": 4, "confidence_blocked": false, "pair_id": "P0045__NCT02182102", "target": "Not Eligible", "trial_id": "NCT02182102"}
+{"prediction": "Not Eligible", "confidence": 0.845, "brier": 0.024, "llm_calls": 8, "confidence_blocked": false, "pair_id": "P0045__NCT03141359", "target": "Not Eligible", "trial_id": "NCT03141359"}

@@ -1,0 +1,63 @@
+INDICON 2026 (Paper ID 5232) — Tier-2 per-field re-extraction prompts
+Source: src/agents/validation_agent.py (_llm_reextract), invoked when a field's regex
+confidence falls in the Tier-2 band [0.30, 0.80).
+
+NOTE: There is no standalone confidence-scoring prompt. Each re-read asks the model to
+self-report a confidence (0.0-1.0), which is combined with the regex confidence as
+final_confidence = 0.30*regex_conf + 0.70*llm_confidence.
+
+================================================================================
+SYSTEM PROMPT (all fields)
+================================================================================
+You are a clinical NLP specialist extracting structured data from oncology patient profiles. You must return ONLY a valid JSON object — no preamble, no markdown, no explanation.
+
+================================================================================
+PER-FIELD INSTRUCTIONS
+================================================================================
+[performance_status]
+Extract the patient's performance status score. IMPORTANT: Determine which scale is used:
+  - ECOG/Zubrod scale: integer 0–4
+  - Karnofsky (KPS) scale: integer 0–100 in multiples of 10
+Return the raw value as stated AND the scale type.
+Return JSON: {"value": <number>, "scale": "ECOG" or "KPS", "ecog_equivalent": <0-4>, "evidence": "<quote>", "confidence": <0.0-1.0>}
+
+[prior_radiotherapy]
+Determine whether the patient has PREVIOUSLY RECEIVED radiotherapy as part of their cancer treatment history.
+CRITICAL: Do NOT confuse treatment planning language (e.g. 'radiation boost field within limits', 'planned radiation dose') with prior treatment receipt.
+Return JSON: {"value": true or false, "evidence": "<direct quote>", "reasoning": "<brief>", "confidence": <0.0-1.0>}
+
+[prior_chemotherapy]
+Determine whether the patient has PREVIOUSLY RECEIVED systemic chemotherapy.
+Return JSON: {"value": true or false, "evidence": "<direct quote>", "confidence": <0.0-1.0>}
+
+[stage_group]
+Extract the cancer stage group. Valid values: I, IA, IB, II, IIA, IIB, III, IIIA, IIIB, IV, IVA, IVB, or TN notation like T2N1.
+Return JSON: {"value": "<stage>", "evidence": "<quote>", "confidence": <0.0-1.0>}
+
+[FEV1_cc]
+Extract FEV1 in cubic centimetres (cc or mL). Valid range: 500–6000.
+Return JSON: {"value": <integer or null>, "evidence": "<quote>", "confidence": <0.0-1.0>}
+
+[FEV1_pct]
+Extract FEV1 as percentage of predicted. Valid range: 1–150%.
+Return JSON: {"value": <integer or null>, "evidence": "<quote>", "confidence": <0.0-1.0>}
+
+================================================================================
+GENERIC DEFAULT INSTRUCTION (any field without a specific instruction above)
+================================================================================
+Extract the value for: {field_description}.
+Previously extracted value (may be wrong): {regex_value}
+Return JSON: {"value": <value or null>, "evidence": "<quote>", "confidence": <0.0-1.0>}
+
+================================================================================
+USER PROMPT TEMPLATE
+================================================================================
+PATIENT PROFILE:
+{patient_profile}
+
+TASK:
+{field_specific_instruction}
+
+Previously extracted value (may be incorrect): {regex_value}
+
+Return ONLY the JSON object.

@@ -1,0 +1,20 @@
+# INDICON 2026 (Paper ID 5232) — reproducibility requirements
+# Reproducing the reported STATISTICS needs only NumPy (+ the Python standard
+# library: json, os, math, itertools). Pinned to the version used to produce the
+# frozen results. Tested on CPython 3.13.1.
+numpy==2.2.1
+
+# ---------------------------------------------------------------------------
+# OPTIONAL — for LIVE REGENERATION of predictions only (NOT needed to reproduce
+# the reported numbers, which come from ../frozen_predictions). Requires API
+# keys and a running PostgreSQL + Pinecone stack. Left unpinned on purpose.
+# ---------------------------------------------------------------------------
+# openai>=1.0.0
+# groq>=0.4.0
+# pinecone>=3.0.0
+# sentence-transformers>=2.2.0
+# torch>=2.0.0
+# psycopg2-binary>=2.9.0
+# sqlalchemy>=2.0.0
+# scikit-learn>=1.3.0
+# pandas>=2.0.0
